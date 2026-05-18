@@ -13,6 +13,9 @@ function AppHeader({ mode, onToggleTheme }) {
           <Button color="inherit" component={RouterLink} to="/">
             Dashboard
           </Button>
+          <Button color="inherit" component={RouterLink} to="/example">
+            Example
+          </Button>
           <Button color="inherit" component={RouterLink} to="/about">
             About
           </Button>
